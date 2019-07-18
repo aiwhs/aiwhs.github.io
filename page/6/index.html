@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+<meta name="theme-color" content="#222">
+
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link rel="stylesheet" href="/lib/pace/pace-theme-pace-theme-minimal.min.css?v=1.0.2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+<link rel="stylesheet" href="/css/main.css?v=7.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.2.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.2.0" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.2.0',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    translation: {
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
+    }
+  };
+</script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="itw">
+<meta property="og:url" content="http://aiwhs.github.io/page/6/index.html">
+<meta property="og:site_name" content="itw">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="itw">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="itw" type="application/atom+xml">
+
+
+
+  
+  
+  <link rel="canonical" href="http://aiwhs.github.io/page/6/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  
+  <title>itw</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+    <a href="https://github.com/aiwhs" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewbox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style></a>
+	
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">itw</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://aiwhs.github.io/2018/05/13/基础命令/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="itw">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="itw">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/05/13/基础命令/" class="post-title-link" itemprop="url">基础命令</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-05-13 08:15:57" itemprop="dateCreated datePublished" datetime="2018-05-13T08:15:57+08:00">2018-05-13</time>
+            </span>
+          
+
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-08 18:17:15" itemprop="dateModified" datetime="2019-07-08T18:17:15+08:00">2019-07-08</time>
+              </span>
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux运维/" itemprop="url" rel="index"><span itemprop="name">Linux运维</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <a id="more"></a>
+
+
+
+<h1 id="linux中命令的概述和命令的帮助："><a href="#linux中命令的概述和命令的帮助：" class="headerlink" title="linux中命令的概述和命令的帮助："></a>linux中命令的概述和命令的帮助：</h1><h3 id="1-命令解释器："><a href="#1-命令解释器：" class="headerlink" title="1.命令解释器："></a>1.命令解释器：</h3><p><code>shell命令解释器，shell负责接收用户的命令进行解释，将解释结果（要执行的命令）传递给系统内核，完成    什么命令做什么事；</code></p>
+<h3 id="2-命令的分类："><a href="#2-命令的分类：" class="headerlink" title="2.命令的分类："></a>2.命令的分类：</h3><pre><code>内部命令：集成于shell解释器程序内部的指令，无需从磁盘中读取，执行效率更高；
+外部命令：对应了系统中的每一个文件，属shell解释器之外的命令，linux系统必须知道外部命令的对应文件位置，才能由shell加载；</code></pre><h3 id="3-如何验证命令为内部命令还是外部命令："><a href="#3-如何验证命令为内部命令还是外部命令：" class="headerlink" title="3.如何验证命令为内部命令还是外部命令："></a>3.如何验证命令为内部命令还是外部命令：</h3><pre><code>enable 命令    ##若无输出则为内部命令，输出not shell为外部命令
+which 外部命令        ##查看外部命令在系统中存放的位置</code></pre><h3 id="4-命令的通用格式："><a href="#4-命令的通用格式：" class="headerlink" title="4.命令的通用格式："></a>4.命令的通用格式：</h3><pre><code>命令字    【选项】    【参数】
+选项：调节命令的具体功能
+参数：命令字的处理对象，通常为文件名、目录名、用户名等；
+特殊选项：
+    -选项        ##短格式
+    --选项    ##长格式，作用与短格式相同，适用于选项为多个字符，例如--help
+    -选项 -选项 等于 -选项集合    ##多个短格式可以合并，例ls -ld  </code></pre><h3 id="5-命令中的快捷键："><a href="#5-命令中的快捷键：" class="headerlink" title="5.命令中的快捷键："></a>5.命令中的快捷键：</h3><pre><code>ctrl+l        ##清除屏幕内容
+ctrl+c        ##停止当前命令的编写
+ctrl+alt+fn        ##图形界面切换字符界面
+alt+fn        ##字符界面切换字符界面
+alt+f7        ##字符界面切换图形界面或f1</code></pre><h3 id="6-命令的帮助，首先确定此命令是内部命令还是外部命令，再进行获得帮助；"><a href="#6-命令的帮助，首先确定此命令是内部命令还是外部命令，再进行获得帮助；" class="headerlink" title="6.命令的帮助，首先确定此命令是内部命令还是外部命令，再进行获得帮助；"></a>6.命令的帮助，首先确定此命令是内部命令还是外部命令，再进行获得帮助；</h3><pre><code>内部命令的帮助：help 内部命令
+外部命令的帮助：外部命令 --help
+命令的帮助手册：man 命令（内外都可以）    ##交互式中ctrl+F/B翻页，q退出，/关键字进行查找内容；
+软件安装时自带的帮助：
+    /usr/share/doc/软件名</code></pre><h1 id="二、对文件的增删改查："><a href="#二、对文件的增删改查：" class="headerlink" title="二、对文件的增删改查："></a>二、对文件的增删改查：</h1><h3 id="1-查：cd、pwd、ls、du、which、find、cat、more、less、head、tail、grep、wc、find"><a href="#1-查：cd、pwd、ls、du、which、find、cat、more、less、head、tail、grep、wc、find" class="headerlink" title="1.查：cd、pwd、ls、du、which、find、cat、more、less、head、tail、grep、wc、find"></a>1.查：cd、pwd、ls、du、which、find、cat、more、less、head、tail、grep、wc、find</h3><pre><code>cd：将用户的工作目录更改到其他位置
+    语法：cd /        ##切换到根目录
+         cd ~        ##切换到root用户的家目录等同于cd
+pwd：查看当前用户所在的工作目录
+ls：显示目录中的内容
+    语法：ls -ld 文件位置或目录位置    ##以长格式显示目录或文件本身的属性，而并非目录下的子文件的属性
+         ls -a 目录位置        ##查看目录下的所有子目录、子文件、隐藏文件
+         ls -lh 文件位置        ##以长格式并且以k或者M显示文件的大小
+which：查找外部命令的存放位置
+    语法：which 外部命令    ##注意只能查找外部命令的存放位置
+find：根据条件查找文件位置
+    语法：find 查找范围目录    查找类型    查找条件
+    查找范围目录：查找文件的范围，/代表根目录
+    查找类型：可根据文件名-name、文件类型-type、文件大小-size等类型进行查找
+    查找条件：根据查找类型拟定适当的查找条件
+    举例：find / -name fstab        ##在根目录进行查找文件名为fstab的文件
+         find / -type  b/d/c/p/l/f         #查是块设备、目录、字符设备、管道、符号链接、普通文件
+         https://www.cnblogs.com/wanqieddy/archive/2011/06/09/2076785.html        ##find用法
+cat：查看文件内容，也可以查看多个文件的内容，中间用空格隔开
+    语法：cat    /etc/fstab    /proc/version
+more：全屏分页查看文件内容，会输出查看的百分比（适合较长的文件--日志文件），交互式中enter进行逐行查看、            空格向下翻屏、b键向上翻屏、q退出
+    语法：more 文件位置
+head：查看文件开头的部分内容
+    语法：head -n 文件位置    ##n代表阿拉伯数字，输入想查看的行数，默认十行
+tail：查看文件结尾的部分内容
+    语法：tail -n 文件位置    ##n与head的-n属性一致
+          tail -f 文件位置    ##监控文件的变化，ctrl+c终止
+wc：统计文本内容，不指定选项时，默认为行数、单词数、字节数
+    语法：wc -c 文件位置    ##统计文件中的字节数
+         wc -l 文件位置        ##统计文件中的行数
+         wc -w 文件位置    ##统计文件中的单词数
+    举例：find /etc -name &quot;*.conf&quot; |wc -l        ##查看/etc目录中有多少个以.conf结尾的配置文件
+grep：过滤文件内容并显示包含指定字符串的行
+    语法：grep 关键字 文件位置    ##查找文件中包含关键字的行
+         grep -i 关键字 文件位置    ##忽略关键字的大小写进行查找
+         grep -v 关键字 文件位置        ##输出排除关键字以外的行
+    关键字的语法：^$代表空行、word$代表以word结尾的行、^word代表以word开头的行
+    举例：grep -v &quot;^#&quot; /etc/yum.conf |grep -v &quot;^$&quot;    ##排除文件中的注释和空行</code></pre><h3 id="2-增：mkdir、touch、ln、cp"><a href="#2-增：mkdir、touch、ln、cp" class="headerlink" title="2.增：mkdir、touch、ln、cp"></a>2.增：mkdir、touch、ln、cp</h3><pre><code>mkdir：用于创建新的目录
+    语法：mkdir 目录名        ##在当前目录创建子目录
+         mkdir -p 目录名/目录名/        ##一次性创建多层目录
+touch：用于创建新的空文件
+    语法：touch .文件名        ##创建隐藏文件
+         touch {1..9}.txt        ##创建1.txt...9.txt 九个文件
+ln：为文件或目录创建链接文件，注意源文件和目标文件必须都为绝对路径
+    语法：ln -s 源文件 目标链接文件    ##创建软链接，特点：可以跨文件系统，但是源文件失效，软链接失效
+         ln 源文件 目标连接文件     ##创建硬链接，特点：不可以跨文件系统，但是源文件失效，硬链接不失效
+cp：复制文件或目录
+    语法：cp 选项 源文件或目录    目标文件或目录
+    选项：-r        ##复制目录时，表示子文件子目录都会被递归复制
+         -f        ##复制同名文件或者目录时，不进行提醒，直接强制复制
+    常用语法：cp -rf 源文件或源目录 目标目录或文件    ##注：若源是目录或者源文件大于一个，那么目标必须是目                录</code></pre><h3 id="3-删：rm、mv"><a href="#3-删：rm、mv" class="headerlink" title="3.删：rm、mv"></a>3.删：rm、mv</h3><pre><code>rm：用于删除指定的文件或目录
+    语法：rm 选项 文件或目录
+    选项：-r        ##删除目录时用到，表示递归删除整个目录树
+         -f        ##删除时不进行提醒，强制删除
+    常用语法：rm -rf 文件或者目录
+mv：为指定的文件或目录移动存储位置
+    语法：mv 需要移动的文件或者目录 目标目录
+    注意事项：在同一级目录下，可以完成改名
+            移动时，目标必须是目录
+            移动并改名、覆盖（一定慎重并且名称要相同）</code></pre><h3 id="4-改：vi"><a href="#4-改：vi" class="headerlink" title="4.改：vi"></a>4.改：vi</h3><h4 id="vi：创建或修改文件"><a href="#vi：创建或修改文件" class="headerlink" title="vi：创建或修改文件"></a>vi：创建或修改文件</h4><h4 id="工作模式："><a href="#工作模式：" class="headerlink" title="工作模式："></a>工作模式：</h4><ul>
+<li><p><code>命令模式</code>：启动vi编辑器默认进入的第一个模式，在此模式中完成光标的移动、查找、删除、复制、粘贴等操作，在此    模式下，a、i、o三个键都可以切换到输入模式，按：键切换到末行模式；</p>
+</li>
+<li><p><code>输入模式</code>：该模式中的主要操作就是写入内容，可以对文本进行添加修改、删除操作，在此模式下，最后一行会出现INSERT    的内容，在此模式按esc键退出到命令模式；</p>
+</li>
+<li><p><code>末行模式</code>：该模式用于设置vi编辑环境，保存文件，退出编辑器等操作，在此模式下，最后一行会出现：的内容，按esc    可退出到命令模式；</p>
+</li>
+</ul>
+<h4 id="基本用法："><a href="#基本用法：" class="headerlink" title="基本用法："></a>基本用法：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1.vi+文件名	</span><br><span class="line">2.找到要更改的部分	</span><br><span class="line">3.按i进行编辑(从命令模式到输入模式)	</span><br><span class="line">4.按esc键退出编辑（从输入模式到命令模式）	</span><br><span class="line">5.:wq保存退出	:q!不保存退出（从命令模式到末行模式）</span><br></pre></td></tr></table></figure>
+
+<h4 id="编辑文本快捷键："><a href="#编辑文本快捷键：" class="headerlink" title="编辑文本快捷键："></a>编辑文本快捷键：</h4><pre><code>o：在光标所在行的下一行添加内容
+O：在光标所在行的上一行添加内容</code></pre><h4 id="行内快速移动光标键："><a href="#行内快速移动光标键：" class="headerlink" title="行内快速移动光标键："></a>行内快速移动光标键：</h4><pre><code>END键和$键将光标快速跳转到本行末尾
+HOME键和^键将光标快速跳转到本行行首</code></pre><h4 id="行间快速跳转："><a href="#行间快速跳转：" class="headerlink" title="行间快速跳转："></a>行间快速跳转：</h4><pre><code>1G和gg可以快速跳转到文件内容的第一行
+G可跳转到文件的最后一行
+#G可以跳转到文件的第#行
+切换到末行模式，:set nu显示行号，:set nonu命令取消显示行号</code></pre><h4 id="删除："><a href="#删除：" class="headerlink" title="删除："></a>删除：</h4><pre><code>#dd删除自光标所在行（包含光标所在行）开始向下的#行内容，dd删除光标所在行
+d$删除当前光标处之后到行尾的所有字符
+:% g/^#/d    删除以#号开头的行
+:% g/^$/d    删除空行</code></pre><h4 id="复制："><a href="#复制：" class="headerlink" title="复制："></a>复制：</h4><pre><code>#yy复制当前光标所在处开始的#行内容（包含光标所在行），yy代表复制光标所在行
+#yw代表复制光标处往后的#个单词</code></pre><h4 id="粘贴：在命令模式下完成"><a href="#粘贴：在命令模式下完成" class="headerlink" title="粘贴：在命令模式下完成"></a>粘贴：在命令模式下完成</h4><pre><code>小写p粘贴在光标之后，大写P粘贴在光标之前</code></pre><h4 id="查找文件内容："><a href="#查找文件内容：" class="headerlink" title="查找文件内容："></a>查找文件内容：</h4><pre><code>/关键字：在当前光标位置往后进行查找关键字
+?关键字：在当前光标位置往前进行查找关键字
+在查找结果的交互式中，N代表向上翻看匹配结果，n代表向下翻看匹配结果</code></pre><h4 id="撤销编辑，保存及退出：在命令模式下"><a href="#撤销编辑，保存及退出：在命令模式下" class="headerlink" title="撤销编辑，保存及退出：在命令模式下"></a>撤销编辑，保存及退出：在命令模式下</h4><pre><code>小写u可以撤销最近一次的更改，连续u可以恢复进行多步的修改，常用
+大写U可以用于取消对当前行做的所有编辑
+大写ZZ可以保存当前文件且退出编辑器</code></pre><h4 id="末行模式的操作："><a href="#末行模式的操作：" class="headerlink" title="末行模式的操作："></a>末行模式的操作：</h4><pre><code>:wq保存文件并退出编辑器
+:w保存文件并不退出编辑器
+:w /root/文件名 另存为
+:q! 不保存退出编辑器
+:r 文件位置 ##在当前编辑的文件中读入其他文件内容切将其文件内容复制到当下文件光标所在处</code></pre><h4 id="替换文件内容："><a href="#替换文件内容：" class="headerlink" title="替换文件内容："></a>替换文件内容：</h4><pre><code>:% s/旧内容/新内容        将整个文件中的旧都替换成新（只替换每行的第一个匹配结果）
+:% s/旧内容/新内容/g        将整个文件中的旧都替换成新（替换所有的匹配结果）
+:5,15 s/旧内容/新内容    将第5行到第15行中的旧替换成新（替换每行的第一个匹配结果）
+:5,15 s/旧内容/新内容/g    将第五行到第15行中的旧替换成新（替换每行中的所有匹配结果）
+:5 s/旧内容/新内容/g        将单单第五行的旧替换成新（替换行中的所有匹配结果）</code></pre><h3 id="三、文件的备份："><a href="#三、文件的备份：" class="headerlink" title="三、文件的备份："></a>三、文件的备份：</h3><h4 id="1-gzip命令："><a href="#1-gzip命令：" class="headerlink" title="1.gzip命令："></a>1.gzip命令：</h4><p>压缩和解压缩工具，压缩文件的扩展名为.gz，选项-9代表高压缩；</p>
+<p>  语法：<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gzip -9 文件名	##压缩文件为.gz格式文件</span><br><span class="line">gzip -d 文件名.gz		##解压缩文件</span><br></pre></td></tr></table></figure></p>
+<h4 id="2-bzip2命令："><a href="#2-bzip2命令：" class="headerlink" title="2.bzip2命令："></a>2.bzip2命令：</h4><p>压缩和解压缩工具，压缩文件的扩展名为.bz2，选项-9代表高压缩</p>
+<p>  语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">bzip2 -9 文件名		##压缩文件为.bz2格式文件</span><br><span class="line">bzip2 -d 文件名.bz2	##解压缩文件</span><br></pre></td></tr></table></figure>
+
+<p><code>注：无论是gzip命令还是bzip2命令，压缩文件后，源文件将被删除，解压缩后，源文件恢复</code></p>
+<h4 id="3-tar命令："><a href="#3-tar命令：" class="headerlink" title="3.tar命令："></a>3.tar命令：</h4><p>归档文件–将文件进行归档时，文件也会被压缩（调用gzip或者bzip2工具），归档时，源文件是不受影响的</p>
+<p>  语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">tar 选项 归档及压缩文件名 需要归档的文件或目录	##归档命令</span><br><span class="line">	   tar 选项 归档及压缩文件名 -C 目标目录		##解压文件</span><br><span class="line">  选项：-z 使用gzip工具进行压缩解压，文件名为.tar.gz</span><br><span class="line">	   -j 使用bzip2工具进行压缩解压，文件名为.tar.bz2</span><br><span class="line">	   -J 使用xz工具进行压缩解压，文件名为.tar.xz</span><br><span class="line">	   -c 压缩文件</span><br><span class="line">	   -C 解压文件到目标目录</span><br><span class="line">	   -f 表示使用归档文件，压缩解压都需要指定</span><br><span class="line">	   -v 输出详细信息</span><br><span class="line">	   -x 解压文件</span><br><span class="line">	   -t 列表查看包内的文件（查看时用到）</span><br><span class="line">	   -p 小写p，打包时保留文件或目录的权限</span><br><span class="line">	   注：压缩率：xz&gt;bzip2&gt;gzip</span><br><span class="line">  常用语法：</span><br><span class="line">	归档：tar zcvf 文件.tar.gz 需要归档的文件或目录	##调用gzip工具进行归档</span><br><span class="line">		 tar jcvf 文件.tar.bz2 需要归档的文件或目录	##调用bzip2工具进行归档</span><br><span class="line">		 tar Jcvf 文件.tar.xz 需要归档的文件或目录	##调用xz工具进行归档</span><br><span class="line">	解压：tar zxvf 文件.tar.gz -C 解压释放目录		##调用gzip工具进行解压</span><br><span class="line">		 tar jxvf 文件.tar.bz2 -C 解压释放目录		##调用bzip2工具进行解压</span><br><span class="line">		 tar Jxvf 文件.tar.xz -C 解压释放目录		##调用xz工具进行解压</span><br><span class="line">	只查看不解压：tar ztf 文件.tar.gz</span><br><span class="line">			     tar jtf 文件.tar.bz2</span><br><span class="line">	 	       	tar Jtf 文件.tar.xz</span><br></pre></td></tr></table></figure>
+
+<h3 id="四、扩展："><a href="#四、扩展：" class="headerlink" title="四、扩展："></a>四、扩展：</h3><h4 id="1-linux中目录结构："><a href="#1-linux中目录结构：" class="headerlink" title="1.linux中目录结构："></a>1.linux中目录结构：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">/boot/：存放系统启动文件，内核文件等</span><br><span class="line">/etc/：存放系统服务配置文件</span><br><span class="line">/proc/：存放系统的硬件状态的信息配置文件</span><br><span class="line">/dev/：存档硬件的映射文件目录</span><br><span class="line">/home/：所有普通用户的默认家目录</span><br><span class="line">/root/：超级管理员的默认家目录</span><br><span class="line">/var/：存放系统中动态变化的文件，如日志等</span><br><span class="line">/usr/：存放其他用户的文件目录，通常为程序文件等</span><br><span class="line">/bin/：存放所有用户都可执行的并经常执行的命令文件</span><br><span class="line">/sbin/：存放系统中基本的管理命令，通常管理员才有权限执行</span><br><span class="line">/tmp/：系统中的临时文件存放目录</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-系统时间的设置与查看："><a href="#2-系统时间的设置与查看：" class="headerlink" title="2.系统时间的设置与查看："></a>2.系统时间的设置与查看：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">date	##查看系统时间</span><br><span class="line">date -s 09/10/16	##设置系统日期2016年9月10日</span><br><span class="line">date -s 16:44:00	##设置系统时间为16：44</span><br><span class="line">hwclock -w		##将系统时间保存到BIOS硬件中</span><br><span class="line">hwclock --show	##查看硬件时间</span><br></pre></td></tr></table></figure>
+
+<h4 id="3-别名的设置："><a href="#3-别名的设置：" class="headerlink" title="3.别名的设置："></a>3.别名的设置：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">作用：别名是系统中为命令或参数等的一个附加名称，重启失效</span><br><span class="line">alias	##查看系统中的别名</span><br><span class="line">alias 别名=&apos;需要设置别名的内容&apos;		##设置别名</span><br><span class="line">unalias 别名		##取消别名</span><br></pre></td></tr></table></figure>
+
+<h4 id="4-特殊符号："><a href="#4-特殊符号：" class="headerlink" title="4.特殊符号："></a>4.特殊符号：</h4>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&gt;与&lt;：&gt; 重定向输出--表示前一个命令的输出结果到后边的文件中；</span><br><span class="line">&lt; 重定向输入--表示后边文件的内容作为前一个命令的参数</span><br><span class="line">&gt;&gt;：重定向追加--在重定向输出的基础上，不覆盖原有文件内容</span><br><span class="line">|：前一个命令的输出作为后一个命令的输入</span><br><span class="line">*：通配符，代表任意字符，不限制位数</span><br><span class="line">?：问号，代表任意字符，只代表1位</span><br></pre></td></tr></table></figure>
+
+
+          
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+	
+	  <div>
+        
+      </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/5/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span>
+  </nav>
+
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  
+  <p class="site-author-name" itemprop="name">itw</p>
+  <div class="site-description motion-element" itemprop="description"></div>
+</div>
+
+
+  <nav class="site-state motion-element">
+    
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">51</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+    
+
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+        
+        
+          
+        
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span>
+        
+      </div>
+    
+
+    
+      
+      
+      <div class="site-state-item site-state-tags">
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">28</span>
+        <span class="site-state-item-name">标签</span>
+        
+      </div>
+    
+  </nav>
+
+
+
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+          
+          
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">itw</span>
+
+  
+
+  
+</div>
+
+
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  本站访客数:<span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
+<!-- <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.2.0</div>
+-->
+
+
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共183.1k字</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+
+
+  <script src="/js/utils.js?v=7.2.0"></script>
+
+  <script src="/js/motion.js?v=7.2.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/schemes/muse.js?v=7.2.0"></script>
+
+
+
+  
+
+  <script src="/js/next-boot.js?v=7.2.0"></script>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas> 
+   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+   <script type="text/javascript" src="/js/fireworks.js"></script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
